@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta lang="fr">
+<meta charset="utf8">
+<title>my first page</title>
+<style>
+table
+{
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+}
+td
+{
+    text-align: center;
+}
+.inpt
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+</style>
+
+</head>
+<body>
+<form>
+    <table>
+        <tr> <td colspan="2"><h1>Bienvenu à l'application </h1></td></tr>
+        <tr>
+            <td>Nom:</td><td> <input type="text" class="inpt" placeholder="votre nom ici" required ></td>
+        </tr>
+        <tr>
+            <td>Prenom:</td><td> <input required type="text"  class="inpt"></td>
+           
+        </tr>
+        <tr> <td>Email:</td><td> <input required type="email" class="inpt" ></td></tr>
+        </tr>
+        <tr> <td>password:</td><td> <input type="password" class="inpt" ></td></tr>
+        </tr>
+        <tr> <td>LinkedIn:</td><td> <input type="url" class="inpt" ></td></tr>
+        <tr> <td>couleur préféré:</td><td> <input type="color" ></td></tr>
+        <tr> <td>type de maladie:</td><td><input type="radio" name="t">Chronique<br><input name="t" type="radio">Permenante</td></tr>
+        <tr> <td>Age:</td><td><input class="inpt" type="number" min="1" max="130" ></td></tr>
+        <tr> <td>Région:</td><td><select class="inpt"><option>Nord</option><option>Nord west</option><option>Golf</option><option>Sud</option><option>Sud EST</option></select></td></tr>
+        <tr> <td>J'ai lu et j'accepte:</td><td><input type="checkbox" ></td></tr>
+        <tr> <td colspan="2"><input type="submit" value="envoyer"></td></tr>
+
+    </table>
+
+
+
+
+</form>
+<!--table width="50%" border="2" align="center" >
+<tr><td>col1</td><td>col2</td></tr>
+<tr><td>col3</td><td>col4</td></tr>
+
+</table-->
+
+</body>
+
+</html>
