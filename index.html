@@ -6,43 +6,58 @@
 <title>my first page</title>
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<style>
 
+    td{
+        text-align: center;
+    }
+</style>
 </head>
 <body>
-<form>
-    <table>
-        <tr> <td colspan="2"><h1>Bienvenu à l'application </h1></td></tr>
-        <tr>
-            <td>Nom:</td><td> <input type="text" class="inpt" placeholder="votre nom ici" required ></td>
-        </tr>
-        <tr>
-            <td>Prenom:</td><td> <input required type="text"  class="inpt"></td>
-           
-        </tr>
-        <tr> <td>Email:</td><td> <input required type="email" class="inpt" ></td></tr>
-        </tr>
-        <tr> <td>password:</td><td> <input type="password" class="inpt" ></td></tr>
-        </tr>
-        <tr> <td>LinkedIn:</td><td> <input type="url" class="inpt" ></td></tr>
-        <tr> <td>couleur préféré:</td><td> <input type="color" ></td></tr>
-        <tr> <td>type de maladie:</td><td><input type="radio" name="t">Chronique<br><input name="t" type="radio">Permenante</td></tr>
-        <tr> <td>Age:</td><td><input class="inpt" type="number" min="1" max="130" ></td></tr>
-        <tr> <td>Région:</td><td><select class="inpt"><option>Nord</option><option>Nord west</option><option>Golf</option><option>Sud</option><option>Sud EST</option></select></td></tr>
-        <tr> <td>J'ai lu et j'accepte:</td><td><input type="checkbox" ></td></tr>
-        <tr> <td colspan="2"><input type="submit" value="envoyer"></td></tr>
 
-    </table>
-
-
-
-
-</form>
 <!--table width="50%" border="2" align="center" >
 <tr><td>col1</td><td>col2</td></tr>
 <tr><td>col3</td><td>col4</td></tr>
 
 </table-->
-
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+      </div>
+      <div class="col-sm">
+        <form>
+            <table class="table table-borderless" >
+                <tr> <td colspan="2"><h1>Bienvenu à l'application </h1></td></tr>
+                <tr>
+                    <td>Nom:</td><td> <input type="text" class="form-control" placeholder="votre nom ici" required ></td>
+                </tr>
+                <tr>
+                    <td>Prenom:</td><td> <input required type="text"  class="form-control"></td>
+                   
+                </tr>
+                <tr> <td>Email:</td><td> <input required type="email" class="form-control" ></td></tr>
+                </tr>
+                <tr> <td>password:</td><td> <input type="password" class="form-control" ></td></tr>
+                </tr>
+                <tr> <td>LinkedIn:</td><td> <input type="url" class="form-control" ></td></tr>
+                <tr> <td>couleur préféré:</td><td> <input type="color" ></td></tr>
+                <tr> <td>type de maladie:</td><td><input type="radio" name="t">Chronique<br><input name="t" type="radio">Permenante</td></tr>
+                <tr> <td>Age:</td><td><input class="form-control" type="number" min="1" max="130" ></td></tr>
+                <tr> <td>Région:</td><td><select class="form-control"><option>Nord</option><option>Nord west</option><option>Golf</option><option>Sud</option><option>Sud EST</option></select></td></tr>
+                <tr> <td>J'ai lu et j'accepte:</td><td><input type="checkbox" ></td></tr>
+                <tr> <td colspan="2"><input class="btn btn-outline-primary" type="submit" value="envoyer"></td></tr>
+        
+            </table>
+        
+        
+        
+        
+        </form>
+      </div>
+      <div class="col-sm">
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
